@@ -34,12 +34,12 @@ My strong opinion is to reject strong opinions. `depject` is a strategy to
 deopinionate software. It should be easy to change any particular opinion.
 
 Another way to look at this, is the goal is to make pull-requests that merge easily.
-with node's module system, a dependant module must declare exactly which modules they depend on.
+With node's module system, a dependant module must declare exactly which modules they depend on.
 That means, to add a feature, you need to add a new file implementing it,
 and also update files that use that.
 
 To contrast, in `depject` if that feature is the same _shape_ as one already existing,
-you only need to add that file. This means you can add merge two new features,
+you only need to add that file. This means you can merge two new features,
 with out a conflict.
 
 ## patterns
@@ -56,7 +56,7 @@ We map the modules over that thing, and add all returned items to a menu.
 
 ### reduce - compose each modules opinion about a thing into one opinion.
 
-We might want to allow other modules to decorate the value given by our module
+We might want to allow other modules to decorate the value given by our module.
 
 ## example
 
